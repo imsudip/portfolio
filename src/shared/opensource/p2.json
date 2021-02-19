@@ -1,0 +1,124 @@
+{
+    "id": "MDEwOlJlcG9zaXRvcnkyNDkxMzQzNTA=",
+    "name": "coronaStat",
+    "createdAt": "2020-03-22T07:30:27Z",
+    "url": "https://github.com/imsudip/coronaStat",
+    "description": "An app built in FLUTTER to view world-wide COVID-19 spread.",
+    "isFork": false,
+    "languages": [
+        {
+            "name": "Kotlin",
+            "iconifyClass": "vscode-icons:file-type-kotlin"
+        },
+        {
+            "name": "Dart",
+            "iconifyClass": "logos-dart"
+        },
+        {
+            "name": "HTML",
+            "iconifyClass": "vscode-icons:file-type-html"
+        }
+    ]
+},
+{
+    "id": "MDEwOlJlcG9zaXRvcnkyNjg1NjU1NjU=",
+    "name": "cudocoders",
+    "createdAt": "2020-06-01T15:51:03Z",
+    "url": "https://github.com/imsudip/cudocoders",
+    "description": "personal website",
+    "isFork": false,
+    "languages": [
+        {
+            "name": "HTML",
+            "iconifyClass": "vscode-icons:file-type-html"
+        },
+        {
+            "name": "JavaScript",
+            "iconifyClass": "logos-javascript"
+        }
+    ]
+},
+{
+    "id": "MDEwOlJlcG9zaXRvcnkyNDc1MDQ5NTg=",
+    "name": "instapost",
+    "createdAt": "2020-03-15T16:26:12Z",
+    "url": "https://github.com/imsudip/instapost",
+    "description": "A social media app Made in FLUTTER",
+    "isFork": false,
+    "languages": [
+        {
+            "name": "Kotlin",
+            "iconifyClass": "vscode-icons:file-type-kotlin"
+        },
+        {
+            "name": "Dart",
+            "iconifyClass": "logos-dart"
+        },
+        {
+            "name": "HTML",
+            "iconifyClass": "vscode-icons:file-type-html"
+        }
+    ]
+},
+{
+    "id": "MDEwOlJlcG9zaXRvcnkyMzUwNTY2NjM=",
+    "name": "bmiCalculator",
+    "createdAt": "2020-01-20T08:49:29Z",
+    "url": "https://github.com/imsudip/bmiCalculator",
+    "description": "A BMI calculator app made in flutter",
+    "isFork": false,
+    "languages": [
+        {
+            "name": "Kotlin",
+            "iconifyClass": "vscode-icons:file-type-kotlin"
+        },
+        {
+            "name": "Dart",
+            "iconifyClass": "logos-dart"
+        },
+        {
+            "name": "HTML",
+            "iconifyClass": "vscode-icons:file-type-html"
+        }
+    ]
+},
+{
+    "id": "MDEwOlJlcG9zaXRvcnkyNDg0Nzk2MzY=",
+    "name": "meditation",
+    "createdAt": "2020-03-19T10:57:35Z",
+    "url": "https://github.com/imsudip/meditation",
+    "description": null,
+    "isFork": false,
+    "languages": [
+        {
+            "name": "Kotlin",
+            "iconifyClass": "vscode-icons:file-type-kotlin"
+        },
+        {
+            "name": "Dart",
+            "iconifyClass": "logos-dart"
+        }
+    ]
+},
+{
+    "id": "MDEwOlJlcG9zaXRvcnkzMzY0NzM5Mjc=",
+    "name": "minfo",
+    "createdAt": "2021-02-06T06:41:42Z",
+    "url": "https://github.com/imsudip/minfo",
+    "description": "A news app built with flutter",
+    "isFork": false,
+    "languages": [
+        {
+            "name": "Kotlin",
+            "iconifyClass": "vscode-icons:file-type-kotlin"
+        },
+        {
+            "name": "Dart",
+            "iconifyClass": "logos-dart"
+        },
+        {
+            "name": "HTML",
+            "iconifyClass": "vscode-icons:file-type-html"
+        }
+    ]
+}
