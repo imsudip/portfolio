@@ -15,6 +15,8 @@ class DegreeCard extends Component {
                 maxWidth: "100%",
                 maxHeight: "100%",
                 transform: "scale(50%, 50%)",
+                borderRadius:"50%"
+            
               }}
               src={require(`../../assests/images/${degree.logo_path}`)}
               alt={degree.alt_name}
@@ -25,7 +27,7 @@ class DegreeCard extends Component {
           <div className="card-body">
             <div
               className="body-header"
-              style={{ backgroundColor: theme.headerColor }}
+              // style={{ backgroundColor: theme.headerColor,  }}
             >
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>

@@ -7,7 +7,12 @@
   margin-left: 5%;
   margin-right: 5%;
 }
-
+.project-button-div{
+  text-decoration: none;
+}
+.project-button-div a{
+  text-decoration: none;
+}
 .projects-heading-div {
   display: flex;
 }
@@ -57,26 +62,14 @@
 
 .repo-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
 }
-.project-card{
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-.project-heading {
-  font-size: 56px;
-  font-weight: bold;
-  font-family: "Google Sans Regular";
-  line-height: normal;
-}
+
 @media (max-width: 1380px) {
-  .project-heading {
-    font-size: 40px;
-  }
   .projects-heading-text {
     font-size: 50px;
     margin-top: 80px;
@@ -87,10 +80,6 @@
 }
 
 @media (max-width: 768px) {
-  .project-heading {
-    font-size: 30px;
-    text-align: center;
-  }
   .projects-heading-text {
     font-size: 30px;
     margin-top: 20px;

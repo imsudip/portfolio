@@ -5,7 +5,6 @@ import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
-import EducationImg from "./EducationImg";
 import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
 import Lottie from 'react-lottie';

@@ -5,12 +5,52 @@
   margin-top: 4rem;
 }
 .greet-main {
+  text-align: center;
+  
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
 }
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
 
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.particle{
+  position: absolute;
+  width: 100%;
+  height: max-content;
+  z-index: -1;
+}
 .gretting-main {
   width: 90%;
   padding: 20px 10px;
@@ -31,7 +71,7 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 40px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -46,7 +86,8 @@
 .greeting-text-p {
   font-size: 40px;
   line-height: 40px;
-  margin-right: 40px;
+  margin-right: 25%;
+  margin-left: 25%;
   font-family: "Google Sans Medium";
 }
 
@@ -54,7 +95,11 @@
   max-width: 100%;
   height: auto;
 }
-
+.portfolio-repo-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
@@ -79,7 +124,8 @@
   }
   .greeting-text-p {
     font-size: 16px;
-    margin-right: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
     line-height: normal;
     text-align: center;
   }

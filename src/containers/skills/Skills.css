@@ -1,5 +1,6 @@
 .skills-main-div {
   display: flex;
+  
 }
 
 .skills-header {
@@ -8,7 +9,15 @@
   font-family: "Google Sans Regular";
   text-align: center;
 }
-
+.view-btn-div{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.view-btn-div a{
+  text-decoration: none;
+}
 .skills-text {
   font-size: 20px;
 }

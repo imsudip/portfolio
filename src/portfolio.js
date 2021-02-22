@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "SudipGhosh",
   nickname: "@imsudip",
   subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    " I'm passionate about manifesting ideas into digital reality and thrive towards accelerated progress every moment with unique and impactful projects to contribute to global development.",
   resumeLink:
     "https://drive.google.com/file/d/1myckpQvEluq-6e7x4cK06Dj2dcwXp27J/view?usp=sharing",
   portfolio_repository: "mailto:sudipghosh93338@gmail.com",
@@ -97,9 +97,9 @@ const skills = {
       title: "Mobile App Developent",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing mobile applications using Flutter and Android Studio.",
+        "⚡ Experience in using various kinds of REST APIs",
+        "⚡ Working with user authentication and firebase CRUD"
       ],
       softwareSkills: [
         {
@@ -146,9 +146,9 @@ const skills = {
       title: "Web Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive webapps/PWAs using flutter web framework",
+        "⚡ Worked with DS and algorithm visualisation using p5.js library",
+        "⚡ Creating responsive website using react",
       ],
       softwareSkills: [
         {
@@ -195,9 +195,16 @@ const skills = {
             color: "#CB3837",
           },
         },
-
+        
         {
-          skillName: "Flutter",
+          skillName: "React.js",
+          fontAwesomeClassname: "logos:react",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Flutter Web",
           fontAwesomeClassname: "logos:flutter",
           style: {
             backgroundColor: "transparent",
@@ -206,13 +213,13 @@ const skills = {
       ],
     },
     {
-      title: "Programming Langueges",
+      title: "Programming Languages",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Having two years of experience working with dart.",
+        "⚡ Creating intermediate projects using python and javascript",
+        "⚡ Having four years of experience with C and C++",
+        
       ],
       softwareSkills: [
         {
@@ -261,6 +268,7 @@ const skills = {
         "⚡ Designing highly attractive user interface for mobile and web applications",
         "⚡ Customizing logo designs and building logos from scratch",
         "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Made high quality poster for clients"
       ],
       softwareSkills: [
         {
@@ -351,11 +359,11 @@ const degrees = {
       alt_name: "Kalyani Mahavidyalaya",
       duration: "2019 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I am pursuing a bachelor's degree in Computer Science.",
+        "⚡ I have completed courses on popular programming languages like python,javascript, and dart.",
+        "⚡ I have studied the basics of DS, Algorithms, and COA.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://kalyanimahavidyalaya.net.in/",
     },
     {
       title: "Kendriya Vidyalaya Ranaghat",
@@ -364,11 +372,10 @@ const degrees = {
       alt_name: "Kendriya Vidyalaya Ranaghat",
       duration: "2007 - 2019",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
+        "⚡ Qualified Secondary Education Examination(X)",
+        "⚡ Qualified Higher Secondary Education Examination(XII)",
+        ],
+      website_link: "https://ranaghat.kvs.ac.in/",
     },
   ],
 };
@@ -491,7 +498,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    " I have interned with various companies as an App developer and also a UI/UX designer. I have developed apps for well-established client companies.",
   header_image_path: "experience.svg",
   sections: [
     // {
@@ -568,7 +575,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects include android applications for several purposes including, algorithm visualization, data management, and commercial apps developed using flutter.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -578,7 +585,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "dp.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Like my works? Get in touch on my social media handles for any assistance on app and web development.",
   },
   blogSection: {
     title: "Blogs",
@@ -595,8 +602,8 @@ const contactPageData = {
     location_map_link: "https://goo.gl/maps/FgoqPJqgorQDJB3E6",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 7908646141",
+    title: "Contacts",
+    subtitle: "+91 7908646141\nsudipghosh9333@gmail.com",
   },
 };
 

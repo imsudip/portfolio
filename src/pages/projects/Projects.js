@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component} from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
@@ -8,15 +8,21 @@ import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
-
 import Lottie from 'react-lottie';
 import animationData from './pr.json';
+
 class Projects extends Component {
+
+
   render() {
     const theme = this.props.theme;
+    // extract language from props
+    
+
     return (
       <div className="projects-main">
         <Header theme={theme} />
+        
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
@@ -26,14 +32,15 @@ class Projects extends Component {
 											alt=""
 										/> */}
                 <Lottie
-                  options={{loop: true,
+                  options={{
+                    loop: true,
                     autoplay: true,
                     animationData: animationData,
                     rendererSettings: {
                       preserveAspectRatio: "xMidYMid slice"
                     }
-                    }}
-                    height={400}
+                  }}
+                  height={400}
 
                 />
               </div>
@@ -54,12 +61,24 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+        <div>
+          {ProjectsData.data.map((section) => {
+
+            return <div className="project-card pr" >
+              <text className="project-heading">{section.title}</text>
+              <div className="repo-cards-div-main">
+
+                {section.data.map((repo) => {
+                  return <GithubRepoCard repo={repo} theme={theme} />;
+                })}
+              </div>
+            </div>;
           })}
         </div>
+
+        
         <Button
+
           text={"More Projects"}
           className="project-button"
           href="https://github.com/imsudip"
@@ -70,7 +89,9 @@ class Projects extends Component {
         <TopButton theme={this.props.theme} />
       </div>
     );
+
   }
+
 }
 
 export default Projects;

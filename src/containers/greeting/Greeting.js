@@ -4,18 +4,53 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
-
+import emoji from "react-easy-emoji";
+import Particles from "react-particles-js";
 export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
+        <div className="particle">
+          <Particles
+            params={{
+              particles: {
+                number: {
+                  value: window.innerWidth < 768 ? window.innerWidth < 420 ? 15 : 30 : 90
+                },
+                color: {
+                  value: "#209CF0",
+                  opacity:0.4,
+                },
+                links: {
+                  opacity: 0.4,
+                  color: {
+                    value: "#1c6d4e"
+                  }
+                },
+                size: {
+                  value: window.innerWidth < 768 ? window.innerWidth < 420 ? 1 : 2 : 3
+                }
+              },
+
+              interactivity: {
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "repulse"
+                  }
+                }
+              }
+            }}
+          />
+        </div>
         <div className="greeting-main">
+
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
+                {"Hi, I'm Sudip Ghosh"}<span className="wave-emoji">{emoji("👋")}</span>
+                
               </h1>
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 ( {greeting.nickname} )
@@ -42,13 +77,7 @@ export default function Greeting(props) {
             </div> */}
             </div>
           </div>
-          <div className="greeting-image-div">
-            <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/me.svg")}
-						></img>
-            {/* <FeelingProud theme={theme} /> */}
-          </div>
+
         </div>
       </div>
     </Fade>

@@ -6,7 +6,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg";
+
 import Lottie from 'react-lottie';
 import animationData from './48055-working-online.json';
 // const experience = {

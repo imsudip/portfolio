@@ -2,7 +2,7 @@ import React from "react";
 import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
-
+import Button from "../../components/button/Button";
 export default function GithubRepoCard({ repo, theme }) {
   function openRepoinNewTab(url) {
     var win = window.open(url, "_blank");
@@ -16,7 +16,7 @@ export default function GithubRepoCard({ repo, theme }) {
           className="repo-card-div"
           key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
-          //style={{ backgroundColor: theme.highlight, opacity: 0.2 }}
+        //style={{ backgroundColor: theme.highlight, opacity: 0.2 }}
         >
           <div className="repo-name-div">
             <svg
@@ -50,6 +50,31 @@ export default function GithubRepoCard({ repo, theme }) {
               className="repo-languages"
               logos={repo.languages}
             />
+          </div>
+          <div className="repo-view-web">
+            <Button
+
+              text={"View Demo"}
+              className="project-button"
+              href={repo.url}
+              newTab={true}
+              
+              theme={theme}
+            />
+            {/* <a
+                href={repo.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  className="visit-btn"
+                 
+                >
+                  <p className="btn" >
+                    Visit Website
+                  </p>
+                </div>
+              </a> */}
           </div>
           {/* <div className="repo-stats">
           <div className="repo-left-stat">

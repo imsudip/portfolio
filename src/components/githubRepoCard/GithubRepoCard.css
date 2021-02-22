@@ -81,11 +81,38 @@
 .repo-details {
   display: flex;
   flex-direction: row;
+  
+}
+.repo-view-web{
+  display: flex;
+  flex-direction: row;
+}
+.visit-btn {
+  background-color: #6ecef7;
+ 
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 0px;
+  
 }
 
+.project-button{
+  margin: 0px;
+ 
+}
+.btn {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  font-family: "Google Sans Regular";
+  /* color: #000000; */
+}
 .repo-creation-date {
   margin: 0;
   font-family: "Google Sans Regular";
+  align-self: center;
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
@@ -111,5 +138,9 @@
 
   .repo-creation-date {
     font-size: 14px;
+  }
+  .repo-languages {
+    margin-left: 0px;
+    margin-right: auto;
   }
 }
